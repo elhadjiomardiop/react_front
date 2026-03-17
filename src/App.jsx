@@ -8,6 +8,7 @@ import PageAccueil from "./page/PageAccueil"
 import PageProduit from "./page/PageProduit"
 import PagePropos from "./page/PagePropos"
 import PageContact from "./page/PageContact"
+import Error from "./page/Error"
 
 
 
@@ -31,9 +32,13 @@ const router = createBrowserRouter([
         {
             path: "/apropos",
             element: <PagePropos />
-        }
-        ],
+        },
+        ]
         
+    },
+    {
+        path:'/*',
+        element: <Error></Error> 
     }
 
 ])

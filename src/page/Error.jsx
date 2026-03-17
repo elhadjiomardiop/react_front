@@ -1,8 +1,18 @@
 import React from 'react'
 
 const Error = () => {
+
   return (
-    <div>Error 404</div>
+    <div className='erreur'>
+      <div>
+        <h1>Error 404</h1>
+      </div>
+
+      <div>
+        <button >Retour à l'accueil</button>
+      </div>
+    </div>
+
   )
 }
 

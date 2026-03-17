@@ -21,11 +21,6 @@ body {
   background-color: rgb(248, 247, 247);
 }
 
-.nav a {
-  color: rgb(22, 19, 19);
-  text-decoration: none;
-}
-
 .nav .logo {
   font-size: 2em;
   font-weight: bold;
@@ -39,6 +34,9 @@ body {
 
 .nav .nav-links ul li {
   margin: 0 25px;
+}
+.nav li:hover {
+  color: red
 }
 
 .nav .nav-links ul li.active a {
@@ -332,4 +330,29 @@ body {
     align-items: center;
     justify-content: space-between;
   }
+}
+
+.erreur {
+  text-align: center;
+  margin: 80px 80px 50px 100px;
+}
+
+.erreur h1 {
+  color: #d80303;
+  font-size: 30vh;
+}
+
+.erreur button {
+  background-color: #f06204;
+  border: none;
+  padding: 20px 50px;
+  font-weight: 500;
+  font-size: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 3px #1c1c1c;
+  color: white;
+}
+
+.erreur button:hover {
+  background-color: #b24602;
 }

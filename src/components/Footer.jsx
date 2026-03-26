@@ -47,9 +47,6 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <div className="copyrith">
-                <p>Copyrighs</p>
-            </div>
         </footer>
     )
 }

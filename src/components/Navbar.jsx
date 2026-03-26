@@ -30,6 +30,8 @@ const Navbar = () => {
                         <li>
                             <NavLink to="/apropos">A propos</NavLink>
                         </li>
+
+                        
                     </ul>
                 </div>
                 <button type="button" className="btn" onClick={handleOpen}>

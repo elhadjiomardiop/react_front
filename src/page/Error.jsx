@@ -1,6 +1,9 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Error = () => {
+
+  const navigate = useNavigate();
 
   return (
     <div className='erreur'>
@@ -9,7 +12,7 @@ const Error = () => {
       </div>
 
       <div>
-        <button >Retour à l'accueil</button>
+        <button onClick={() => navigate ('/')} >Retour à l'accueil</button>
       </div>
     </div>
 

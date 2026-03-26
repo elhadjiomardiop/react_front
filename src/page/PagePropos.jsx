@@ -2,7 +2,10 @@ import React from 'react'
 
 const PagePropos = () => {
     return (
-        <div>PagePropos</div>
+        <div>
+            PagePropos
+        </div>
+        
     )
 }
 

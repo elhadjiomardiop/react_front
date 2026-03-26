@@ -1,6 +1,8 @@
 import React from 'react'
 import Section1 from '../components/Section1'
-import name from '../assets/product_img4.png'
+import image1 from '../assets/product_img4.png'
+
+
 
 const products = [
     {
@@ -9,7 +11,7 @@ const products = [
         category: "Audio",
         price: "29 900 FCFA",
         description: "Un son clair avec reduction de bruit et 24h d'autonomie.",
-        image: {name},
+        accent: "linear-gradient(135deg, #206e3d 0%, #8fd3f4 100%)",
     },
     {
         id: 2,
@@ -51,14 +53,7 @@ const products = [
         description: "Lumiere ajustable, bras flexible et port USB integre.",
         accent: "linear-gradient(135deg, #fddb92 0%, #d1fdff 100%)",
     },
-    {
-        id: 6,
-        name: "Le courant éléctrique",
-        category: "Electricité",
-        price: "12 800",
-        description: "Donne accées au courant mes dans les lieux ou il n'y a n'en pas",
-        accent: "linear-gardient(135deg, #fddb92 0%, #d1fdff 100%)"
-    }
+    
 ]
 
 const PageProduit = () => {

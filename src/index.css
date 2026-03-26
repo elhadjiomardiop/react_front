@@ -267,6 +267,11 @@ body {
   min-height: 100%;
 }
 
+.card {
+  height: 150px;
+  
+}
+
 .product-image {
   height: 150px;
 }

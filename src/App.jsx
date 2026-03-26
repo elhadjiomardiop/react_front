@@ -1,6 +1,3 @@
-
-
-import Section1 from "./components/Section1"
 import { createBrowserRouter, RouterProvider} from "react-router-dom"
 import Layout from "./components/Layout"
 
